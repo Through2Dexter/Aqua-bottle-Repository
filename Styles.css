@@ -43,7 +43,7 @@ header {
 }
 
 .product-image img {
-  max-width: 200px; /* Adjust the max-width to keep the image small */
+  max-width: 230px; /* Adjust the max-width to keep the image small */
   height: auto;
   margin-top: -60px;
 }
@@ -74,7 +74,7 @@ header {
 
 .product-details .price {
   font-size: 20px;
-  color: #909090;
+  color: #000000;
 
 
 }
@@ -135,7 +135,7 @@ footer {
     text-align: left; /* Align "Add to Cart" button to the left on desktop */
   }
 
-  .footer-text {
+  .footer {
     display: none; /* Hide footer text on desktop */
   }
 }
