@@ -3,8 +3,8 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333; /* Default text color */
-  background-color: #dadada;
+  color: #d0d0d0; /* Default text color */
+  background-color: #535353;
 }
 
 
@@ -17,7 +17,7 @@ header {
 }
 
 .company-name {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico';
   font-size: 48px;
   margin-top: 10px; /* Adjust margin-top to close the gap */
   margin-bottom: 10px;
@@ -65,17 +65,18 @@ header {
 .product-details p {
   font-size: 18px;
   margin-bottom: 10px;
-  color: #666; /* Lighter grey text color for product description */
+  color: #e5e2e2; /* Lighter grey text color for product description */
 }
 
 .product-details .description {
   font-style: italic;
   margin-bottom: -10px;
-  color: #919191;
+  color: #a19f9f;
 }
 
 .product-details .price {
-  font-size: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
   color: #000000;
 
 
@@ -89,16 +90,17 @@ header {
 .add-to-cart button {
   padding: 5px 12px;
   font-size: 13px;
-  background-color: #007bff;;
+  background-color: #403f3f;;
   color: #fff;
-  border: none;
+  border: solid;
+  border-color: #787878;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.5s;
 }
 
 .add-to-cart button:hover {
-  background-color: #444444;
+  background-color: #6e6d6d;
 }
 
 .footer-text {
@@ -107,16 +109,10 @@ header {
   text-align: center; /* Center the text horizontally */
 }
 
-footer {
-  background-color: #333;
-  color: #007bff;
-  text-align: center;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  
+.division {
+  height: 80px;
 }
+
 
 /* Media queries for responsive design */
 @media (min-width: 768px) {
