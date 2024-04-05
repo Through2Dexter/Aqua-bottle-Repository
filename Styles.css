@@ -113,6 +113,10 @@ header {
   height: 80px;
 }
 
+.division1 {
+  height: 60px;
+}
+
 
 /* Media queries for responsive design */
 @media (min-width: 768px) {
